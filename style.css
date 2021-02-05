@@ -1,0 +1,190 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	background-color: rgb(255,192,203);
+}
+body
+{
+	font-family: cursive;
+}
+
+.gallery
+{
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;	
+	margin-bottom: 20px;
+	float: right;
+	-webkit-box-shadow: 0 2px 15px 1px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 0 2px 15px 1px rgba(0, 0, 0, 0.5);
+	box-shadow: 0 2px 15px 1px rgba(0, 0, 0, 0.5)
+}
+.gallery img
+{
+	width: 150px;
+	height: 150px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+}
+.profile-img
+{
+	margin-left: 10px;
+	margin-right: 10px;	
+	margin-bottom: 20px;
+	float: right;
+}
+.profile-img img
+{
+	width: 100px;
+	height: 100px;
+}
+.gallery img:hover{
+	transform: scale(2);
+	-webkit-transform: scale(2);
+	-ms-transform: scale(2);
+}
+.about
+{	
+	margin-left: 10px;	
+	margin-bottom: 30px;
+}
+.profile-info
+{
+	width: 100%;
+	height: 100vh;
+	float: left;
+	padding: 0 2pw;
+	/*overflow: scroll;
+	overflow-x: hidden*/;
+}
+/*.profile-info::-webkit-scrollbar
+{
+	width: 5px
+}*/
+.experience:hover{
+	transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+}
+.education:hover{
+	transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+}
+.hobbies:hover{
+	transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	-ms-transform: scale(1.5);
+}
+.profile-info h1
+{
+	margin-top: 50px;	
+	margin-bottom: 30px;
+	font-size: 50px;
+}
+.Social-media img
+{
+	height: 30px;
+	margin-left: 10px;
+}
+.Social-media
+{
+	margin-top: 20px;
+	margin-left: 15px;
+}
+.profile-info h2
+{
+	margin-top: 30px;
+	height: 50px;
+	margin-left: 10px;
+}
+.profile-info h4
+{
+	margin-top: 30px;
+	height: 50px;
+	margin-left: 10px;
+}
+.profile-info h5
+{
+	margin-top: 30px;
+	height: 20px;
+	margin-left: 10px;
+}
+.profile-info h3
+{
+	margin-top: 30px;
+	height: 20px;
+	margin-left: 10px;
+}
+.hobbies
+{
+	display: inline-block;
+	width: 20%;
+	padding: 2pw 2pw;
+	margin: 2%;
+	text-align: center;
+	background: white;
+	box-shadow: 0 0 15px 1px RGB(64,224,208, .5);
+}
+.hobbies small
+{
+	padding-top: 2pw;
+	display: block;
+}
+.experience
+{
+	display: inline-block;
+	width: 20%;
+	padding: 2pw 2pw;
+	margin: 2%;
+	text-align: center;
+	background: white;
+	box-shadow: 0 0 15px 1px RGB(64,224,208, .5);
+}
+.experience small
+{
+	padding-top: 2pw;
+	display: block;
+}
+.education
+{
+	display: inline-block;
+	width: 20%;
+	padding: 2pw 2pw;
+	margin: 2%;
+	text-align: center;
+	background: white;
+	box-shadow: 0 0 15px 1px RGB(64,224,208, .5);
+}
+.education small
+{
+	padding-top: 2pw;
+	display: block;
+}
+
+
+
+/* Create two equal columns that floats next to each other */
+
+.column {
+  float: left;
+  top: 50px;
+}
+
+.left {
+  width: 70vw;
+}
+
+.right {
+  width: 25vw;
+  background: RGB(64,224,208, .5);
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
